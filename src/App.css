@@ -1,0 +1,59 @@
+.flex
+{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.navl
+{
+    text-decoration: none;
+}
+
+.sidebar li{
+    padding:20px;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.tex
+{
+    padding:10px;
+    margin-top:20px;
+    width:50%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.btn
+{
+    margin-top:1em;
+    display: inline-block;
+    padding:1em 2em;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    color:white;
+}
+.btn hover{
+    background-color: darkblue;
+}
+.desc
+{
+    width:60%;
+    margin:auto;
+    line-height: 2em;
+}
+.padding
+{
+    padding-left: 102px;
+    padding-right: 102px;
+}
